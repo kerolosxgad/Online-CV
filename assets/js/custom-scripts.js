@@ -381,3 +381,9 @@
 
     
 }(jQuery));
+    /*
+    |=================
+    | YEAR
+    |=================
+    */
+document.getElementById("year").innerHTML = new Date().getFullYear();
