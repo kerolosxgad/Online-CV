@@ -10,17 +10,17 @@
 .mh-header .navbar-nav li a:hover {
   color: #a97afd; }
 
-.mh-home-2 .mh-header-info ul.mh-home-contact li:hover .fa {
+.home-2 .mh-header-info ul.home-contact li:hover .fa {
   color: #a97afd; }
 
-.mh-home .mh-header-info .mh-promo span {
+.home .mh-header-info .mh-promo span {
   background-color: #a97afd; }
-.mh-home .mh-header-info ul li:hover .fa {
+.home .mh-header-info ul li:hover .fa {
   color: #a97afd; }
 
-.mh-about-tag ul li span {
+.about-tag ul li span {
   border: 1px solid #a97afd; }
-  .mh-about-tag ul li span:hover {
+  .about-tag ul li span:hover {
     background-color: #a97afd; }
 
 .mh-progress path:nth-child(2) {
@@ -32,13 +32,13 @@
 .mh-experince .mh-education-deatils .mh-education-item .mh-eduyear {
   color: #a97afd; }
 
-.mh-work .mh-experience-deatils .mh-work-item .mh-eduyear {
+.mh-work .experience-deatils .mh-work-item .mh-eduyear {
   color: #a97afd; }
 
 .mh-experince .mh-education-deatils .mh-education-item h4 a {
   color: #a97afd; }
 
-.mh-work .mh-experience-deatils .mh-work-item h4 a {
+.mh-work .experience-deatils .mh-work-item h4 a {
   color: #a97afd; }
 
 .portfolio-nav ul li:hover {

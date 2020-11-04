@@ -24,7 +24,7 @@
   .section-separator {
     padding: 40px 0; }
 
-  .mh-home-2 .mh-header-info p {
+  .home-2 .mh-header-info p {
     padding: 0 0px;
     font-weight: 300; }
 
@@ -37,7 +37,7 @@
     height: 60px;
     line-height: 60px; }
 
-  .mh-home-2 .mh-header-info .mh-about-tag {
+  .home-2 .mh-header-info .about-tag {
     width: 80%; }
 
   .mh-xs-mobile-nav {
@@ -255,7 +255,7 @@
     .mh-xs-mobile-nav .navbar-dark .navbar-toggler-icon {
       background-image: inherit; }
 
-  .mh-home .mh-header-info {
+  .home .mh-header-info {
     padding: 0; }
 
   .mh-header {
@@ -264,14 +264,14 @@
   .home-padding {
     padding: 100px 0; }
 
-  .mh-about .mh-about-inner {
+  .about .about-inner {
     padding-left: 5px; }
 
-  .mh-home .mh-header-info h2 {
+  .home .mh-header-info h2 {
     font-size: 42px;
     font-weight: 600;
     line-height: 54px; }
-  .mh-home .mh-header-info h4 {
+  .home .mh-header-info h4 {
     font-size: 20px;
     line-height: 24px; }
 
@@ -281,10 +281,10 @@
   .mh-professional-skills {
     padding-left: 0; }
 
-  .mh-skills .mh-professional-skill {
+  .skills .mh-professional-skill {
     padding-right: 0; }
 
-  .mh-home .mh-header-info .mh-promo {
+  .home .mh-header-info .mh-promo {
     margin-bottom: 20px; }
 
   .nav-strict .navbar-toggler {
@@ -340,14 +340,14 @@
   .mh-education {
     padding-right: 0; }
 
-  .mh-skills .mh-professional-skill h3 {
+  .skills .mh-professional-skill h3 {
     margin-bottom: 30px; }
 
   .mh-professional-skills h3 {
     margin-top: 30px;
     margin-bottom: 30px; }
 
-  .mh-about .mh-about-inner {
+  .about .about-inner {
     margin-top: 40px; }
 
   .mh-footer-address .mh-address-footer-item .each-icon .fa {
@@ -355,7 +355,7 @@
     height: 70px;
     line-height: 70px; }
 
-  .mh-home-2 .mh-header-info ul.mh-home-contact li {
+  .home-2 .mh-header-info ul.home-contact li {
     display: inline-block;
     margin: 10px 15px;
     width: 40%;
@@ -364,7 +364,7 @@
   .mh-testimonial .mh-client-item {
     padding: 30px 10px; }
 
-  .mh-home-2 .mh-header-info .mh-about-tag {
+  .home-2 .mh-header-info .about-tag {
     width: 100%; }
 
   .mh-blog .mh-blog-item .blog-inner {
@@ -392,20 +392,20 @@
   .home-padding {
     padding: 100px 0; }
 
-  .mh-home .hero-img {
+  .home .hero-img {
     margin-bottom: 30px; }
 
-  .mh-home .mh-header-info {
+  .home .mh-header-info {
     padding: 0;
     text-align: center;
     margin-top: 40px; }
 
-  .mh-about .mh-about-inner {
+  .about .about-inner {
     padding-left: 5px;
     text-align: center;
     margin: 30px 15px; }
 
-  .mh-skills .mh-professional-skill {
+  .skills .mh-professional-skill {
     padding-right: 0;
     padding: 0 15px; }
 
@@ -424,13 +424,13 @@
   .portfolio-nav ul li {
     margin-bottom: 20px; }
 
-  .mh-skills .mh-professional-skill {
+  .skills .mh-professional-skill {
     margin-bottom: 50px; }
 
   .section-separator {
     padding: 30px 0; }
 
-  .mh-home .mh-header-info .mh-promo {
+  .home .mh-header-info .mh-promo {
     margin-bottom: 20px; }
 
   .mh-featured-project-content {
@@ -447,7 +447,7 @@
     padding: 0px;
     margin-top: 40px; }
 
-  .mh-home-2 .mh-header-info ul.mh-home-contact li {
+  .home-2 .mh-header-info ul.home-contact li {
     width: 100%;
     margin: 6px 10px; }
 
@@ -466,17 +466,17 @@
   .xs-no-padding {
     padding: 0; }
 
-  .mh-home-2 .mh-header-info {
+  .home-2 .mh-header-info {
     text-align: center;
     padding-top: 50px; }
 
-  .mh-portfolio-modal-inner {
+  .portfolio-modal-inner {
     margin-right: 0; }
 
-  .mh-portfolio-modal {
+  .portfolio-modal {
     padding: 10px; }
 
-  .mh-portfolio-modal-img {
+  .portfolio-modal-img {
     margin-top: 50px; }
 
   .mh-service .mh-service-item {
@@ -500,7 +500,7 @@
   .text-left.text-xs-center {
     text-align: center !important; } }
 @media only screen and (max-width: 420px) {
-  .mh-home .img-border {
+  .home .img-border {
     height: 280px;
     width: 280px; }
 

@@ -631,7 +631,7 @@ button {
   background-color: rgba(255, 255, 255, 0.9); }
 .white-vertion .dark-bg {
   background-color: #fff; }
-.white-vertion .mh-home .mh-header-info .mh-promo span {
+.white-vertion .home .mh-header-info .mh-promo span {
   color: #fff; }
 .white-vertion .mh-project-gallery .grid-item figure figcaption a {
   color: #fff; }
@@ -639,7 +639,7 @@ button {
   color: #fff; }
 .white-vertion .mh-project-gallery .grid-item figure figcaption .sub-title {
   color: #fff; }
-.white-vertion .mh-portfolio-modal {
+.white-vertion .portfolio-modal {
   background: #fff; }
 .white-vertion .page-item.active .page-link {
   background-color: #fff;
@@ -652,7 +652,7 @@ button {
 .white-vertion .mh-header .navbar-nav li a {
   color: #000;
   opacity: 0.8; }
-.white-vertion .mh-home .mh-header-info .social-icon li .fa:hover {
+.white-vertion .home .mh-header-info .social-icon li .fa:hover {
   background-color: #000; }
 .white-vertion h1, .white-vertion h2, .white-vertion h3, .white-vertion h4, .white-vertion h5, .white-vertion h6, .white-vertion p, .white-vertion address, .white-vertion span, .white-vertion q {
   opacity: 0.8; }
@@ -706,7 +706,7 @@ button {
   box-shadow: 0px 10px 20px 4px #00000015; }
 .white-vertion .mh-experince .mh-education-deatils .mh-education-item {
   box-shadow: 0px 10px 20px 4px #00000015; }
-.white-vertion .mh-work .mh-experience-deatils .mh-work-item {
+.white-vertion .mh-work .experience-deatils .mh-work-item {
   box-shadow: 0px 10px 20px 4px #00000015; }
 
 .dark-vertion {
@@ -747,7 +747,7 @@ button {
     background-color: #202026; }
   .dark-vertion .img-color-overlay {
     background-color: rgba(0, 0, 0, 0.9); }
-  .dark-vertion .mh-home .mh-header-info .social-icon li .fa:hover {
+  .dark-vertion .home .mh-header-info .social-icon li .fa:hover {
     background-color: #fff; }
   .dark-vertion .page-item.active .page-link {
     background-color: #fff;
@@ -795,7 +795,7 @@ button {
       -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
       -moz-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
       box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8); }
-  .dark-vertion .mh-work .mh-experience-deatils .mh-work-item {
+  .dark-vertion .mh-work .experience-deatils .mh-work-item {
     -webkit-box-shadow: -1rem 0 3rem #000;
     box-shadow: -1rem 0 3rem #000; }
   .dark-vertion .mh-pricing .mh-pricing {
@@ -813,9 +813,9 @@ button {
   .dark-vertion .mh-service .mh-service-item {
     -webkit-box-shadow: -1rem 0 3rem #000;
     box-shadow: -1rem 0 3rem #000; }
-  .dark-vertion .mh-home .hero-img img {
+  .dark-vertion .home .hero-img img {
     border: 20px solid rgba(0, 0, 0, 0.4); }
-  .dark-vertion .mh-home .img-border {
+  .dark-vertion .home .img-border {
     border: 20px solid rgba(0, 0, 0, 0.9); }
   .dark-vertion .candidatos .parcial .progressBar {
     background: rgba(199, 198, 198, 0.6); }
@@ -824,7 +824,7 @@ button {
 
 .mh-rtl {
   text-align: right; }
-  .mh-rtl .mh-work .mh-experience-deatils
+  .mh-rtl .mh-work .experience-deatils
   .mh-work-item .work-responsibility
   li .fa {
     margin-left: 10px; }
@@ -961,44 +961,44 @@ body {
        Navigation
     ==============
 */
-.mh-home-2 .mh-header-info {
+.home-2 .mh-header-info {
   text-align: center;
   padding-top: 100px; }
-  .mh-home-2 .mh-header-info .hero-img {
+  .home-2 .mh-header-info .hero-img {
     margin-bottom: 30px; }
-    .mh-home-2 .mh-header-info .hero-img img {
+    .home-2 .mh-header-info .hero-img img {
       border: 0px solid #fff;
       border-radius: 50%; }
-  .mh-home-2 .mh-header-info h2 {
+  .home-2 .mh-header-info h2 {
     font-size: 50px;
     font-weight: 600;
     line-height: 60px;
     margin-top: 10px;
     margin-bottom: 0px;
     opacity: 0.9; }
-  .mh-home-2 .mh-header-info h4 {
+  .home-2 .mh-header-info h4 {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 20px;
     opacity: 0.9; }
-  .mh-home-2 .mh-header-info p {
+  .home-2 .mh-header-info p {
     padding: 0 120px;
     font-weight: 300; }
-  .mh-home-2 .mh-header-info ul li {
+  .home-2 .mh-header-info ul li {
     margin: 10px 6px; }
-  .mh-home-2 .mh-header-info ul.mh-home-contact {
+  .home-2 .mh-header-info ul.home-contact {
     margin-bottom: 15px; }
-    .mh-home-2 .mh-header-info ul.mh-home-contact li {
+    .home-2 .mh-header-info ul.home-contact li {
       display: inline-block;
       margin: 10px 15px; }
-      .mh-home-2 .mh-header-info ul.mh-home-contact li .fa {
+      .home-2 .mh-header-info ul.home-contact li .fa {
         margin-right: 10px; }
-      .mh-home-2 .mh-header-info ul.mh-home-contact li:hover .fa {
+      .home-2 .mh-header-info ul.home-contact li:hover .fa {
         color: #0bceaf; }
-  .mh-home-2 .mh-header-info .mh-about-tag {
+  .home-2 .mh-header-info .about-tag {
     width: 60%;
     margin: 0 auto; }
-    .mh-home-2 .mh-header-info .mh-about-tag ul li {
+    .home-2 .mh-header-info .about-tag ul li {
       margin: 6px; }
 
 /*
@@ -1007,14 +1007,14 @@ body {
     ==============
 */
 
-.mh-rtl .mh-home .mh-header-info ul li .fa {
+.mh-rtl .home .mh-header-info ul li .fa {
     margin: 0 10px;
 }
-.mh-home .mh-header-info {
+.home .mh-header-info {
   padding-top: 100px; }
-  .mh-home .mh-header-info .mh-promo {
+  .home .mh-header-info .mh-promo {
     margin-bottom: 30px; }
-    .mh-home .mh-header-info .mh-promo span {
+    .home .mh-header-info .mh-promo span {
       background-color: #0bceaf;
       font-size: 14px;
       line-height: 24px;
@@ -1025,30 +1025,30 @@ body {
       border-top-right-radius: 20px;
       border-bottom-right-radius: 20px;
       border-bottom-left-radius: 0px; }
-  .mh-home .mh-header-info h2 {
+  .home .mh-header-info h2 {
     font-size: 60px;
     font-weight: 600;
     line-height: 65px;
     margin-top: 10px;
     margin-bottom: 10px; }
-  .mh-home .mh-header-info h4 {
+  .home .mh-header-info h4 {
     font-size: 26px;
     line-height: 34px;
     margin-bottom: 30px; }
-  .mh-home .mh-header-info ul {
+  .home .mh-header-info ul {
     margin-top: 20px; }
-    .mh-home .mh-header-info ul li {
+    .home .mh-header-info ul li {
       margin: 10px 0; }
-      .mh-home .mh-header-info ul li .fa {
+      .home .mh-header-info ul li .fa {
         margin-right: 15px;
         display: inline-block; }
-      .mh-home .mh-header-info ul li address {
+      .home .mh-header-info ul li address {
         display: inline-block; }
-      .mh-home .mh-header-info ul li:hover .fa {
+      .home .mh-header-info ul li:hover .fa {
         color: #0bceaf; }
-  .mh-home .mh-header-info .social-icon {
+  .home .mh-header-info .social-icon {
     margin-top: 0; }
-    .mh-home .mh-header-info .social-icon li .fa {
+    .home .mh-header-info .social-icon li .fa {
       font-size: 18px;
       line-height: 30px;
       padding: 4px 14px;
@@ -1058,12 +1058,12 @@ body {
       -webkit-transition: 0.3s;
       transition: 0.3s;
       border-radius: 3px; }
-      .mh-home .mh-header-info .social-icon li .fa:hover {
+      .home .mh-header-info .social-icon li .fa:hover {
         -moz-transition: 0.3s;
         -o-transition: 0.3s;
         -webkit-transition: 0.3s;
         transition: 0.3s; }
-    .mh-home .mh-header-info .social-icon li a {
+    .home .mh-header-info .social-icon li a {
       font-size: 25px;
       text-align: center;
       width: 30px;
@@ -1071,18 +1071,18 @@ body {
       padding: 0;
       margin-right: 0;
       border-radius: 50%; }
-.mh-home .hero-img {
+.home .hero-img {
   margin: 0 auto;
   float: none;
   margin-top: 30px;
   text-align: center; }
-  .mh-home .hero-img img {
+  .home .hero-img img {
     margin: 0 auto;
     float: none;
     text-align: center;
     border: 20px solid rgba(0, 0, 0, 0.17);
     border-radius: 50%; }
-.mh-home .img-border {
+.home .img-border {
   height: 400px;
   width: 400px;
   border: 20px solid rgba(0, 0, 0, 0.07);
@@ -1101,33 +1101,33 @@ body {
        ABOUT
     ==============
 */
-.mh-about .mh-about-inner {
+.about .about-inner {
   padding-left: 50px; }
-  .mh-about .mh-about-inner h2 {
+  .about .about-inner h2 {
     margin-bottom: 20px;
     margin-top: 20px; }
-  .mh-about .mh-about-inner p {
+  .about .about-inner p {
     margin-bottom: 30px; }
-  .mh-about .mh-about-inner .btn {
+  .about .about-inner .btn {
     margin-top: 20px; }
-    .mh-about .mh-about-inner .btn .fa {
+    .about .about-inner .btn .fa {
       margin-left: 10px; }
 
-.mh-about-tag {
+.about-tag {
   word-break: break-all;
   margin-bottom: 10px;
   margin-top: 10px; }
-  .mh-about-tag ul li {
+  .about-tag ul li {
     margin: 0px 6px;
     border-radius: 4px;
     margin-bottom: 10px;
     padding: 4px 0px;
     display: inline-block; }
-    .mh-about-tag ul li span {
+    .about-tag ul li span {
       border: 1px solid #0bceaf;
       padding: 4px 10px;
       border-radius: 4px; }
-      .mh-about-tag ul li span:hover {
+      .about-tag ul li span:hover {
         background-color: transparent !important; }
 
 /*
@@ -1135,9 +1135,9 @@ body {
        SKILLS
     ==============
 */
-.mh-skills .mh-professional-skill {
+.skills .mh-professional-skill {
   padding-right: 60px; }
-  .mh-skills .mh-professional-skill h3 {
+  .skills .mh-professional-skill h3 {
     font-size: 30px;
     line-height: 40px;
     text-align: center;
@@ -1300,32 +1300,32 @@ body {
     line-height: 40px;
     font-weight: bold;
     margin-bottom: 60px; }
-  .mh-work .mh-experience-deatils .mh-work-item {
+  .mh-work .experience-deatils .mh-work-item {
     margin-bottom: 30px;
     padding: 20px 30px;
     border-radius: 4px;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
-    .mh-work .mh-experience-deatils .mh-work-item:last-child {
+    .mh-work .experience-deatils .mh-work-item:last-child {
       margin-bottom: 0; }
-    .mh-work .mh-experience-deatils .mh-work-item h4 {
+    .mh-work .experience-deatils .mh-work-item h4 {
       font-size: 20px;
       line-height: 30px;
       font-weight: 600; }
-      .mh-work .mh-experience-deatils .mh-work-item h4 a {
+      .mh-work .experience-deatils .mh-work-item h4 a {
         color: #0bceaf; }
-    .mh-work .mh-experience-deatils .mh-work-item .mh-eduyear {
+    .mh-work .experience-deatils .mh-work-item .mh-eduyear {
       margin: 10px 0;
       color: #0bceaf; }
-    .mh-work .mh-experience-deatils .mh-work-item span {
+    .mh-work .experience-deatils .mh-work-item span {
       font-size: 12px;
       line-height: 22px; }
-    .mh-work .mh-experience-deatils .mh-work-item .work-responsibility li {
+    .mh-work .experience-deatils .mh-work-item .work-responsibility li {
       font-size: 14px;
       line-height: 23px;
       margin: 2px 0; }
-      .mh-work .mh-experience-deatils .mh-work-item .work-responsibility li .fa {
+      .mh-work .experience-deatils .mh-work-item .work-responsibility li .fa {
         font-size: 10px;
         line-height: 23px;
         margin-right: 10px; }
@@ -1351,28 +1351,28 @@ body {
       .portfolio-nav ul li.active {
         color: #0bceaf; }
 
-.mh-portfolio-modal {
+.portfolio-modal {
   display: none;
   background: #282828; }
 
-.mh-portfolio-modal-inner {
+.portfolio-modal-inner {
   max-height: 500px;
   overflow-y: scroll;
   margin-right: 20px; }
-  .mh-portfolio-modal-inner::-webkit-scrollbar-track {
+  .portfolio-modal-inner::-webkit-scrollbar-track {
     border: 1px solid #000;
     padding: 2px 0;
     background-color: #fff; }
-  .mh-portfolio-modal-inner::-webkit-scrollbar {
+  .portfolio-modal-inner::-webkit-scrollbar {
     width: 10px; }
-  .mh-portfolio-modal-inner::-webkit-scrollbar-thumb {
+  .portfolio-modal-inner::-webkit-scrollbar-thumb {
     border-radius: 10px;
     box-shadow: inset 0 0 10px #000; }
-  .mh-portfolio-modal-inner h2 {
+  .portfolio-modal-inner h2 {
     margin-top: 10px;
     margin-bottom: 20px; }
 
-.mh-portfolio-modal-img img {
+.portfolio-modal-img img {
   margin-bottom: 20px; }
 
 .mix {
