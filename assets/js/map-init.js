@@ -25,6 +25,5 @@
       var marker = new google.maps.Marker({
           position: new google.maps.LatLng(24.906308,91.870413),
           map: map,
-          title: '24 Golden Tower (2nd floor), Amborkhana, Sylhet.!'
       });
     }
