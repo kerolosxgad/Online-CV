@@ -329,7 +329,7 @@
     | CONTACT FORM
     |=================
     */
-        
+      /*  
       $("#contactForm").validator().on("submit", function (event) {
           if (event.isDefaultPrevented()) {
             // handle the invalid form...
@@ -348,7 +348,7 @@
           var message = $("#message").val();
           $.ajax({
               type: "POST",
-              url: "https://send.pageclip.co/lYBnvaBOOSrWka9HVoJfgP6Nq8RkjhIx/Contact",
+              url: "process.php",
               data: "name=" + name + "&email=" + email + "&message=" + message,
               success : function(text){
                   if (text == "success"){
@@ -377,6 +377,7 @@
           }
           $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
         }
+        */
     
 
     
