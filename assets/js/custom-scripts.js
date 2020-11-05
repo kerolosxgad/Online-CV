@@ -348,7 +348,7 @@
           var message = $("#message").val();
           $.ajax({
               type: "POST",
-              url: "process.php",
+              url: "https://send.pageclip.co/lYBnvaBOOSrWka9HVoJfgP6Nq8RkjhIx/Contact",
               data: "name=" + name + "&email=" + email + "&message=" + message,
               success : function(text){
                   if (text == "success"){
