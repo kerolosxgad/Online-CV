@@ -73,7 +73,8 @@ MMMMMMMMMMMMMMMMMMMMMMMMMh/:yNNs:/hMMMMMMMMMMMMMMMMMMMMMMMMM
         <!-- Custom CSS-->
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
-        <link rel="stylesheet" href="assets/css/contact.css">
+        <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+        
         <!-- Colors -->
         <link rel="alternate stylesheet" href="assets/css/colors/blue.css" title="blue">
         <link rel="stylesheet" href="assets/css/colors/defauld.css" title="defauld">
@@ -906,7 +907,6 @@ MMMMMMMMMMMMMMMMMMMMMMMMMh/:yNNs:/hMMMMMMMMMMMMMMMMMMMMMMMMM
                         </div>
                         <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                             <form action="https://send.pageclip.co/lYBnvaBOOSrWka9HVoJfgP6Nq8RkjhIx/Contact" method="POST" id="contactForm" class="single-form quate-form wow fadeInUp pageclip-form" data-toggle="validator">
-                                <div id="msgSubmit" class="h3 text-center hidden"></div>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input name="Name" class="contact-name form-control" id="name" type="text" placeholder="Full Name" required>
@@ -917,10 +917,9 @@ MMMMMMMMMMMMMMMMMMMMMMMMMh/:yNNs:/hMMMMMMMMMMMMMMMMMMMMMMMMM
                                     <div class="col-sm-12">
                                         <textarea name="Message" class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
                                     </div>
-                                    <div class="alert">Your message has been sent</div>
                                     <!-- Subject Button -->
                                     <div class="btn-form col-sm-12">
-                                        <button type="submit" class="btn btn-fill btn-block" id="submitForm">Send Message</button>
+                                        <button type="submit" class="btn btn-fill btn-block pageclip-form__submit" id="form-submit">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -989,7 +988,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMh/:yNNs:/hMMMMMMMMMMMMMMMMMMMMMMMMM
     <!-- Custom Scripts-->
     <script src="assets/js/map-init.js"></script>
     <script src="assets/js/custom-scripts.js"></script>
-    <script src="asset/js/contact.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     <!-- ****************
       After neccessary customization/modification, Please minify 
       JavaScript/jQuery according to http://browserdiet.com/en/ for better performance
